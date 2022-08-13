@@ -2,7 +2,7 @@ import random
 
 def GameWin(comp,you):
         if comp == you:
-            return none
+            return None
         elif comp == 's':
             if you == 'w':
                 return False
@@ -37,7 +37,7 @@ print(f"Computer chose {comp}")
 print(f"you chose {you}")
 
 a = GameWin(comp , you)
-if a == none:
+if a == None:
     print("Game is tie")
 elif a:
     print("you won")
