@@ -30,7 +30,7 @@ elif randno == 2:
 elif randno == 3:
     comp = 'g'
 
-you = input (print("your turn : snake(s) , water(w) , gun(g) ))
+you = input ("your turn : snake(s) , water(w) , gun(g)" )
 
 print(f"Computer chose {comp}")
 
