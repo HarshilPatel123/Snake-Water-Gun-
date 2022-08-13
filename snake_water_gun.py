@@ -11,12 +11,12 @@ def GameWin(comp,you):
         elif comp == 'w':
             if you == 'g':
                 return False
-            elif you == 's'
+            elif you == 's':
                 return True
         elif comp == 'g':
             if you == 's':
                 return False
-            elif you == 'w'
+            elif you == 'w':
                 return True
 
 
